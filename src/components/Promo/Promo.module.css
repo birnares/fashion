@@ -1,0 +1,36 @@
+.promo {
+  margin-bottom: 63px;
+}
+
+.promo__content {
+  display: flex;
+  column-gap: 24px;
+  
+  padding-top: 68px;
+  padding-left: 120px;
+
+  border-radius: 60px;
+  background-color: #F4F6F5;
+}
+
+.promo__text {
+
+}
+
+.promo__title {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: calc(120/96);
+}
+
+.promo__desc {
+
+}
+
+.promo__btn_wrapper {
+
+}
+
+.promo__img {
+
+}
