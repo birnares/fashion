@@ -9,7 +9,7 @@ const Header = () => {
         <div className={classes.header__row}>
           <div className={classes.header__logo}>
             <img src={logo} alt="Logo" />
-            <span>Fashion</span>
+            <span className="title-1">Fashion</span>
           </div>
           <nav className={classes.header__nav}>
             <ul>

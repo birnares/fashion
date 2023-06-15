@@ -1,0 +1,73 @@
+.sale {
+  margin-bottom: 190px;
+  background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+
+  
+}
+.sale__content {
+  display: flex;
+}
+
+.sale__img {
+  mix-blend-mode: darken;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sale__text {
+  margin-top: 90px;
+}
+
+.sale__title {
+  font-weight: 900;
+  font-size: 102px;
+  line-height: 1.1;
+  letter-spacing: 0em;
+}
+
+
+.sale__title_payday {
+  position: relative;
+  display: inline-block;
+}
+
+.sale__title_payday span {
+  position: relative;
+}
+
+.sale__title_payday::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: -10px;
+  bottom: 0;
+  left: -15px;
+  right: -30px;
+  background-color: #fff;
+  transform: rotate(-2deg);
+}
+
+.sale__desc {
+  max-width: 644px;
+  padding: 2px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.45;
+  letter-spacing: -0.02em;
+  margin: 33px 0 40px;
+}
+
+.sale__date {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  margin-bottom: 51px;
+}
+
+.sale__date span { 
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}

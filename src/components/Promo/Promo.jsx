@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Promo.module.css";
 import promo from "./../../images/img/header-img.jpg";
+import BtnShop from "../BtnShop/BtnShop";
 
 const Promo = () => {
   return (
@@ -16,17 +17,13 @@ const Promo = () => {
                 EXPLORE
                 <span className={classes.promo__title_unique}>
                   <span>UNIQUE</span>
-                </span>{" "}
+                </span>
                 CLOTHES.
               </div>
               <div className={classes.promo__desc}>
                 Live for Influential and Innovative fashion!
               </div>
-              <div className={classes.promo__btn_wrapper}>
-                <button className={classes.promo__btn}>
-                  <a href="#!"> Shop Now</a>
-                </button>
-              </div>
+              <BtnShop />
             </div>
             <div className={classes.promo__img}>
               <img src={promo} alt="Promo" />

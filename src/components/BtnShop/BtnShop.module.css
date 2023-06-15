@@ -1,0 +1,31 @@
+.promo__btn_wrapper {
+  display: flex;
+  column-gap: 34px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+
+
+.promo__btn {
+  border-radius: 10px;
+  background: #000;
+
+  padding: 18px 40px;
+
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.25;
+}
+
+.promo__btn a {
+  color: #fff;
+}
+
+.promo__btn_wrapper::before {
+  content: " ";
+  display: inline-block;
+  width: 190px;
+  height: 32px;
+  background-image: url(./../../images/icons/decor-yellow.svg);
+}

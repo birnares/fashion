@@ -6,7 +6,7 @@
   margin-bottom: 100px;
 }
 
-.arrivals__cars {
+.arrivals__card {
   display: flex;
   justify-content: space-between;
   column-gap: 30px;

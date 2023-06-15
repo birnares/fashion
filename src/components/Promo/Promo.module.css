@@ -16,7 +16,7 @@
 .promo__title {
   max-width: 480px;
   font-weight: 900;
-  font-size: 96px;
+  font-size: 72px;
   line-height: 1.25;
   margin-bottom: 40px;
 }
@@ -68,35 +68,10 @@
   font-size: 32px;
   line-height: 1.5;
   letter-spacing: -0.05em;
-  margin-bottom: 32px;
+  margin-bottom: 42px;
 }
 
-.promo__btn_wrapper {
-  display: flex;
-  column-gap: 34px;
-  align-items: center;
-  margin-bottom: 90px;
-}
-
-.promo__btn_wrapper::before {
-  content: " ";
-  display: inline-block;
-  width: 190px;
-  height: 32px;
-  background-image: url(./../../images/icons/decor-yellow.svg);
-}
-
-.promo__btn {
-  border-radius: 10%;
-  background: #000;
-
-  padding: 18px 40px;
-
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 1.25;
-}
-
-.promo__btn a {
-  color: #fff;
+.promo__img {
+  height: 100%;
+  object-fit: cover;
 }

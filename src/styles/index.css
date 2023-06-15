@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
 :root {
-  --textColor: #000; 
+  --textColor: #000;
+  --descColor: #7F7F7F; 
   --yellow: #EBD96B;
 }
 
@@ -14,6 +15,18 @@ body {
   max-width: 1780px;
   margin: 0 auto;
   padding: 0 30px;
+}
+
+.title-1 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.title-1white {
+  color: #fff;
 }
 
 .title-2 {

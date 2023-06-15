@@ -15,14 +15,6 @@ padding: 46px 0 56px;
   column-gap: 13px;
 }
 
-.header__logo span {
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
 .header__nav {
   font-weight: 500;
   font-size: 22px;
@@ -50,3 +42,4 @@ padding: 46px 0 56px;
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
+
