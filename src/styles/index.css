@@ -15,3 +15,25 @@ body {
   margin: 0 auto;
   padding: 0 30px;
 }
+
+.title-2 {
+  position: relative;
+  display: inline-block;
+
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.04%;
+  letter-spacing: 0.06em;
+}
+
+.title-2::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: -30px;
+  height: 32px;
+  width: 190px;
+  background-image: url(./../images/icons/decor-yellow.svg);
+  background-repeat: no-repeat;
+}
